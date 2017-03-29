@@ -14,3 +14,9 @@ alias stop_mysql='sudo $MYSQL_HOME/support-files/mysql.server stop'
 5. If you want to dump in a file, say the file is `~/Downloads/dbsql.sql`, the following instructions will be useful.
     1. create a database first, `create database sample-db`
     2. run command, `mysql -uroot -p sample-db < ~/Downloads/dbsql.sql`, your dump will be imported.
+6. Download the [mysql_connect.py](https://github.com/vinceyang15/python-mysql-example-ds/blob/master/mysql_connect.py).
+7. Run `pip install mysqlclient` in commandline.
+8. Run `python mysql_connect.py`, and it will print out the first row of the users table.
+
+## Links
+[Mysql Client Document](https://mysqlclient.readthedocs.io)
